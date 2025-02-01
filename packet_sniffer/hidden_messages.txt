@@ -1,0 +1,35 @@
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Protocol used: TCP
+TCP segment checksum: 0xf049
+Hidden message found: Welcome to Computer Networks CS331
+Total packets captured: 792179
+Total packets containing the hidden message: 11
