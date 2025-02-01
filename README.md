@@ -5,6 +5,8 @@ This assignment focuses on developing a raw packet sniffer and analyzing network
 
 ## Setup & Execution
 
+Create a folder named `packet_replayer` inside the directory where your git repository is cloned. Place the required PCAP file inside this `packet_replayer` folder. Then proceed with the next steps as instructed.
+
 ### 1. Compile C++ programs
 ```sh
 cd packet_sniffer
@@ -28,7 +30,8 @@ cd packet_replayer
 sudo tcpreplay -i eth0 --topspeed 4.pcap
 ```
 
-After this, `packet_statistics.txt` will contain the sniffed packet statistics, and `histogram_data.csv` will store data for the histogram plot.
+After all packets have been sent, Terminal 2 will display the details of the transferred data. In Terminal 1, press `Ctrl+C` to stop the process. This will save the statistical data of the packets.
+Now, `packet_statistics.txt` will contain the sniffed packet statistics, and `histogram_data.csv` will store data for the histogram plot.
 
 ### 4. Analyze and Process Data
 Back in **Terminal 1**:
@@ -48,10 +51,10 @@ cd packet_sniffer
 sudo tcpreplay -i eth0 --topspeed 4.pcap
 ```
 
-After this, `hidden_messages.txt` will contain the data required to answer the questions in Part 2.
+After all packets have been sent, Terminal 2 will display the details of the transferred data. In Terminal 1, press `Ctrl+C` to stop the process. This will save the statistical data of the packets.
+Now, `hidden_messages.txt` will contain the data required to answer the questions in Part 2.
 
 ## Notes
 - `libpcap` must be installed (`sudo apt install libpcap-dev`).
 - Run commands with `sudo` for packet capture and replay.
 - Replace `eth0` with your actual network interface (`ifconfig` to check).
-```  
